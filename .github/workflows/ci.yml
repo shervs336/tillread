@@ -9,8 +9,8 @@ permissions:
   contents: read
 
 jobs:
-  library:
-    name: Library (Node ${{ matrix.node }})
+  test:
+    name: Tests (Node ${{ matrix.node }})
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -22,10 +22,25 @@ jobs:
           node-version: ${{ matrix.node }}
           cache: npm
       - run: npm ci
+      - run: npm test -w tillread
+
+  package:
+    name: Types, coverage, build, size, exports
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
       - run: npm run typecheck -w tillread
       - run: npm run coverage -w tillread
-      - run: npm test -w tillread -- -t "is fast"
       - run: npm run build -w tillread
+      - name: Built package works from CommonJS and ESM
+        run: |
+          node -e "const t=require('./packages/tillread/dist/index.cjs'); if (t.parseAmount('1.234,56', ',') !== 123456) process.exit(1)"
+          node --input-type=module -e "import { parse } from './packages/tillread/dist/index.js'; if (parse('Date,Description,Amount\n2026-01-02,Tea,-3.10').transactions[0].amount !== -310) process.exit(1)"
       - name: Size budget
         run: npm run size -w tillread
       - name: Package exports (publint + are-the-types-wrong)

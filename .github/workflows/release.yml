@@ -13,6 +13,8 @@ permissions:
 
 jobs:
   release:
+    # Off until npm publishing is set up: set the repository variable RELEASE_ENABLED to "true".
+    if: vars.RELEASE_ENABLED == 'true'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4

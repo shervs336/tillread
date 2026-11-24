@@ -9,13 +9,19 @@ import { execSync } from "node:child_process";
 import { existsSync, readdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
-import { build } from "esbuild";
+import { build, type BuildOptions } from "esbuild";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const dist = join(root, "dist");
 rmSync(dist, { recursive: true, force: true });
 
-const common = { entryPoints: [join(root, "src/index.ts")], bundle: true, platform: "neutral", target: "es2020", logLevel: "warning" } as const;
+const common: BuildOptions = {
+  entryPoints: [join(root, "src/index.ts")],
+  bundle: true,
+  platform: "neutral",
+  target: "es2020",
+  logLevel: "warning",
+};
 await build({ ...common, format: "esm", outfile: join(dist, "index.js") });
 await build({ ...common, format: "cjs", outfile: join(dist, "index.cjs") });
 
