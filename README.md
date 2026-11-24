@@ -1,4 +1,5 @@
 # Tillread: read any bank's CSV
+n[![CI](https://github.com/shervs336/tillread/actions/workflows/ci.yml/badge.svg)](https://github.com/shervs336/tillread/actions/workflows/ci.yml)
 
 **Docs and playground:** https://tillread.vercel.app · **npm:** [`tillread`](https://www.npmjs.com/package/tillread)
 
