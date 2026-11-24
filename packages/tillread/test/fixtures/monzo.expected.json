@@ -1,0 +1,127 @@
+{
+  "name": "monzo",
+  "bank": "Monzo",
+  "region": "UK",
+  "note": "Eighteen columns, including Local amount and Money Out / Money In next to Amount.",
+  "truth": [
+    {
+      "date": "2026-01-05",
+      "amount": -328,
+      "description": "BOOTS 1123 LONDON GBR",
+      "currency": "GBP",
+      "category": "Shopping"
+    },
+    {
+      "date": "2026-01-05",
+      "amount": -6805,
+      "description": "TESCO STORES 2041 LONDON GBR",
+      "currency": "GBP",
+      "category": "Groceries"
+    },
+    {
+      "date": "2026-01-05",
+      "amount": 288138,
+      "description": "SALARY ACME LTD LONDON GBR",
+      "currency": "GBP",
+      "category": "Income"
+    },
+    {
+      "date": "2026-01-05",
+      "amount": -11507,
+      "description": "SAINSBURYS S/MKT LONDON GBR",
+      "currency": "GBP",
+      "category": "Groceries"
+    },
+    {
+      "date": "2026-01-05",
+      "amount": -918,
+      "description": "DELIVEROO LONDON GBR",
+      "currency": "GBP",
+      "category": "Eating out"
+    },
+    {
+      "date": "2026-01-07",
+      "amount": -7875,
+      "description": "DELIVEROO LONDON GBR",
+      "currency": "GBP",
+      "category": "Eating out"
+    },
+    {
+      "date": "2026-01-08",
+      "amount": -2690,
+      "description": "THAMES WATER LONDON GBR",
+      "currency": "GBP",
+      "category": "Bills"
+    },
+    {
+      "date": "2026-01-11",
+      "amount": -3529,
+      "description": "THAMES WATER LONDON GBR",
+      "currency": "GBP",
+      "category": "Bills"
+    },
+    {
+      "date": "2026-01-14",
+      "amount": 297592,
+      "description": "SALARY ACME LTD LONDON GBR",
+      "currency": "GBP",
+      "category": "Income"
+    },
+    {
+      "date": "2026-01-17",
+      "amount": -11840,
+      "description": "THAMES WATER LONDON GBR",
+      "currency": "GBP",
+      "category": "Bills"
+    },
+    {
+      "date": "2026-01-17",
+      "amount": -6931,
+      "description": "PRET A MANGER LONDON GBR",
+      "currency": "GBP",
+      "category": "Eating out"
+    },
+    {
+      "date": "2026-01-18",
+      "amount": -2856,
+      "description": "AMAZON.CO.UK LONDON GBR",
+      "currency": "GBP",
+      "category": "Shopping"
+    },
+    {
+      "date": "2026-01-19",
+      "amount": -7279,
+      "description": "BOOTS 1123 LONDON GBR",
+      "currency": "GBP",
+      "category": "Shopping"
+    },
+    {
+      "date": "2026-01-22",
+      "amount": -7155,
+      "description": "AMAZON.CO.UK LONDON GBR",
+      "currency": "GBP",
+      "category": "Shopping"
+    },
+    {
+      "date": "2026-01-24",
+      "amount": 235958,
+      "description": "SALARY ACME LTD LONDON GBR",
+      "currency": "GBP",
+      "category": "Income"
+    },
+    {
+      "date": "2026-01-27",
+      "amount": -10024,
+      "description": "PRET A MANGER LONDON GBR",
+      "currency": "GBP",
+      "category": "Eating out"
+    }
+  ],
+  "skipped": 0,
+  "detection": {
+    "delimiter": ",",
+    "dateFormat": "DMY",
+    "decimal": ".",
+    "sign": "signed"
+  }
+}

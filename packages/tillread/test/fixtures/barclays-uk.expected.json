@@ -1,0 +1,90 @@
+{
+  "name": "barclays-uk",
+  "bank": "Barclays",
+  "region": "UK",
+  "note": "The merchant is in Memo with padded spaces, and the sort-code column (20-32-06) looks like a date.",
+  "truth": [
+    {
+      "date": "2026-01-04",
+      "amount": -11309,
+      "description": "COSTA COFFEE ON 04 JAN BCC"
+    },
+    {
+      "date": "2026-01-07",
+      "amount": -5789,
+      "description": "DELIVEROO ON 07 JAN BCC"
+    },
+    {
+      "date": "2026-01-07",
+      "amount": 162534,
+      "description": "ACME LTD SALARY ON 07 JAN BCC"
+    },
+    {
+      "date": "2026-01-10",
+      "amount": -11365,
+      "description": "PRET A MANGER ON 10 JAN BCC"
+    },
+    {
+      "date": "2026-01-11",
+      "amount": -4956,
+      "description": "SAINSBURYS S/MKT ON 11 JAN BCC"
+    },
+    {
+      "date": "2026-01-14",
+      "amount": -3793,
+      "description": "AMAZON.CO.UK ON 14 JAN BCC"
+    },
+    {
+      "date": "2026-01-17",
+      "amount": -2194,
+      "description": "SAINSBURYS S/MKT ON 17 JAN BCC"
+    },
+    {
+      "date": "2026-01-19",
+      "amount": -6546,
+      "description": "DELIVEROO ON 19 JAN BCC"
+    },
+    {
+      "date": "2026-01-20",
+      "amount": 201349,
+      "description": "ACME LTD SALARY ON 20 JAN BCC"
+    },
+    {
+      "date": "2026-01-22",
+      "amount": -850,
+      "description": "DELIVEROO ON 22 JAN BCC"
+    },
+    {
+      "date": "2026-01-22",
+      "amount": -1191,
+      "description": "PRET A MANGER ON 22 JAN BCC"
+    },
+    {
+      "date": "2026-01-22",
+      "amount": -1321,
+      "description": "PRET A MANGER ON 22 JAN BCC"
+    },
+    {
+      "date": "2026-01-25",
+      "amount": -6105,
+      "description": "SAINSBURYS S/MKT ON 25 JAN BCC"
+    },
+    {
+      "date": "2026-01-27",
+      "amount": -9841,
+      "description": "PRET A MANGER ON 27 JAN BCC"
+    },
+    {
+      "date": "2026-01-28",
+      "amount": 287686,
+      "description": "ACME LTD SALARY ON 28 JAN BCC"
+    }
+  ],
+  "skipped": 0,
+  "detection": {
+    "delimiter": ",",
+    "dateFormat": "DMY",
+    "decimal": ".",
+    "sign": "signed"
+  }
+}

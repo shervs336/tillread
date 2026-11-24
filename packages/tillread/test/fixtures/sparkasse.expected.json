@@ -1,0 +1,105 @@
+{
+  "name": "sparkasse",
+  "bank": "Sparkasse",
+  "region": "Germany",
+  "note": "Semicolons, 1.234,56 amounts, DD.MM.YY dates, every cell quoted, and Windows-1252 encoding (ä, ü).",
+  "truth": [
+    {
+      "date": "2026-01-02",
+      "amount": -7802,
+      "description": "Lidl sagt Danke",
+      "currency": "EUR"
+    },
+    {
+      "date": "2026-01-04",
+      "amount": -7320,
+      "description": "dm-drogerie markt",
+      "currency": "EUR"
+    },
+    {
+      "date": "2026-01-07",
+      "amount": 185822,
+      "description": "ACME GmbH",
+      "currency": "EUR"
+    },
+    {
+      "date": "2026-01-07",
+      "amount": -6470,
+      "description": "REWE Markt GmbH",
+      "currency": "EUR"
+    },
+    {
+      "date": "2026-01-09",
+      "amount": -2944,
+      "description": "DB Vertrieb GmbH",
+      "currency": "EUR"
+    },
+    {
+      "date": "2026-01-12",
+      "amount": -8621,
+      "description": "REWE Markt GmbH",
+      "currency": "EUR"
+    },
+    {
+      "date": "2026-01-12",
+      "amount": -772,
+      "description": "Stadtwerke München",
+      "currency": "EUR"
+    },
+    {
+      "date": "2026-01-13",
+      "amount": -9332,
+      "description": "Spotify AB",
+      "currency": "EUR"
+    },
+    {
+      "date": "2026-01-13",
+      "amount": 218092,
+      "description": "ACME GmbH",
+      "currency": "EUR"
+    },
+    {
+      "date": "2026-01-15",
+      "amount": -4152,
+      "description": "Stadtwerke München",
+      "currency": "EUR"
+    },
+    {
+      "date": "2026-01-15",
+      "amount": -10630,
+      "description": "Lidl sagt Danke",
+      "currency": "EUR"
+    },
+    {
+      "date": "2026-01-17",
+      "amount": -11096,
+      "description": "Stadtwerke München",
+      "currency": "EUR"
+    },
+    {
+      "date": "2026-01-19",
+      "amount": -9353,
+      "description": "Bäckerei Kühn",
+      "currency": "EUR"
+    },
+    {
+      "date": "2026-01-20",
+      "amount": -3620,
+      "description": "REWE Markt GmbH",
+      "currency": "EUR"
+    },
+    {
+      "date": "2026-01-21",
+      "amount": 299980,
+      "description": "ACME GmbH",
+      "currency": "EUR"
+    }
+  ],
+  "skipped": 0,
+  "detection": {
+    "delimiter": ";",
+    "dateFormat": "DMY",
+    "decimal": ",",
+    "sign": "signed"
+  }
+}

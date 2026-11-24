@@ -1,0 +1,93 @@
+{
+  "name": "tillread",
+  "version": "0.1.0",
+  "description": "Read CSV exports from any bank into clean, typed transactions. Detects columns, dates, decimal commas and debit/credit signs. Zero dependencies.",
+  "keywords": [
+    "csv",
+    "bank",
+    "bank-statement",
+    "transactions",
+    "finance",
+    "parser",
+    "import",
+    "ofx-alternative",
+    "personal-finance"
+  ],
+  "license": "MIT",
+  "author": "Sherwin Rhey Condez",
+  "homepage": "https://tillread.vercel.app",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shervs336/tillread.git",
+    "directory": "packages/tillread"
+  },
+  "bugs": "https://github.com/shervs336/tillread/issues",
+  "type": "module",
+  "sideEffects": false,
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.cts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
+      }
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "scripts": {
+    "build": "node scripts/build.ts",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "coverage": "vitest run --coverage -t \"^(?!.*is fast)\"",
+    "typecheck": "tsc --noEmit",
+    "size": "size-limit",
+    "fixtures": "node scripts/make-fixtures.ts",
+    "bench": "node scripts/bench.ts",
+    "lint:pkg": "publint && attw --pack . --profile node16"
+  },
+  "size-limit": [
+    {
+      "name": "parse (everything)",
+      "path": "dist/index.js",
+      "import": "{ parse }",
+      "limit": "7 kB"
+    },
+    {
+      "name": "parseAmount only",
+      "path": "dist/index.js",
+      "import": "{ parseAmount }",
+      "limit": "1 kB"
+    }
+  ],
+  "devDependencies": {
+    "@arethetypeswrong/cli": "^0.18.5",
+    "@size-limit/esbuild": "^14.3.0",
+    "@size-limit/file": "^14.3.0",
+    "@types/node": "^26.6.6",
+    "@vitest/coverage-v8": "^5.1.1",
+    "esbuild": "^0.28.2",
+    "fast-check": "^4.11.0",
+    "publint": "^0.3.25",
+    "size-limit": "^14.3.0",
+    "typescript": "^7.0.2",
+    "vitest": "^5.1.1"
+  }
+}

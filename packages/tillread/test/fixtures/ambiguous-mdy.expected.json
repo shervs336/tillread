@@ -1,0 +1,82 @@
+{
+  "name": "ambiguous-mdy",
+  "bank": "Ambiguous dates (month first)",
+  "region": "Edge case",
+  "note": "Every day is 12 or under, so 02/03 could be either; only the row order settles it.",
+  "truth": [
+    {
+      "date": "2026-01-07",
+      "amount": -5409,
+      "description": "CVS/PHARMACY #01234"
+    },
+    {
+      "date": "2026-01-11",
+      "amount": -2631,
+      "description": "AMAZON MKTPL*2K4"
+    },
+    {
+      "date": "2026-02-01",
+      "amount": 151606,
+      "description": "ACME PAYROLL"
+    },
+    {
+      "date": "2026-02-11",
+      "amount": -4634,
+      "description": "BLUE BOTTLE COFFEE"
+    },
+    {
+      "date": "2026-03-01",
+      "amount": -428,
+      "description": "TRADER JOE'S #552"
+    },
+    {
+      "date": "2026-03-04",
+      "amount": -5405,
+      "description": "SPOTIFY USA"
+    },
+    {
+      "date": "2026-03-04",
+      "amount": -8032,
+      "description": "NETFLIX.COM"
+    },
+    {
+      "date": "2026-03-12",
+      "amount": -5006,
+      "description": "SPOTIFY USA"
+    },
+    {
+      "date": "2026-04-01",
+      "amount": 286895,
+      "description": "ACME PAYROLL"
+    },
+    {
+      "date": "2026-04-03",
+      "amount": -906,
+      "description": "WHOLE FOODS MKT #10"
+    },
+    {
+      "date": "2026-04-05",
+      "amount": -2152,
+      "description": "WHOLE FOODS MKT #10"
+    },
+    {
+      "date": "2026-04-08",
+      "amount": -918,
+      "description": "SPOTIFY USA"
+    },
+    {
+      "date": "2026-05-01",
+      "amount": -9646,
+      "description": "COMCAST XFINITY"
+    },
+    {
+      "date": "2026-05-08",
+      "amount": -3878,
+      "description": "AMAZON MKTPL*2K4"
+    }
+  ],
+  "skipped": 0,
+  "detection": {
+    "dateFormat": "MDY"
+  }
+}

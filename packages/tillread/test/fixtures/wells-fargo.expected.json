@@ -1,0 +1,86 @@
+{
+  "name": "wells-fargo",
+  "bank": "Wells Fargo",
+  "region": "US",
+  "note": "No header row; every cell quoted. Columns are found from their contents.",
+  "truth": [
+    {
+      "date": "2026-02-27",
+      "amount": -7312,
+      "description": "PURCHASE AUTHORIZED ON 02/27 CVS/PHARMACY #01234"
+    },
+    {
+      "date": "2026-02-24",
+      "amount": -7535,
+      "description": "PURCHASE AUTHORIZED ON 02/24 CHIPOTLE 2291"
+    },
+    {
+      "date": "2026-02-21",
+      "amount": -400,
+      "description": "PURCHASE AUTHORIZED ON 02/21 AMAZON MKTPL*2K4"
+    },
+    {
+      "date": "2026-02-21",
+      "amount": -4715,
+      "description": "PURCHASE AUTHORIZED ON 02/21 CHIPOTLE 2291"
+    },
+    {
+      "date": "2026-02-21",
+      "amount": -5346,
+      "description": "PURCHASE AUTHORIZED ON 02/21 CHIPOTLE 2291"
+    },
+    {
+      "date": "2026-02-18",
+      "amount": 196559,
+      "description": "PURCHASE AUTHORIZED ON 02/18 ACME CORP PAYROLL"
+    },
+    {
+      "date": "2026-02-15",
+      "amount": -6779,
+      "description": "PURCHASE AUTHORIZED ON 02/15 BLUE BOTTLE COFFEE"
+    },
+    {
+      "date": "2026-02-12",
+      "amount": -8365,
+      "description": "PURCHASE AUTHORIZED ON 02/12 CVS/PHARMACY #01234"
+    },
+    {
+      "date": "2026-02-11",
+      "amount": -4183,
+      "description": "PURCHASE AUTHORIZED ON 02/11 CHIPOTLE 2291"
+    },
+    {
+      "date": "2026-02-08",
+      "amount": -6020,
+      "description": "PURCHASE AUTHORIZED ON 02/08 COMCAST XFINITY"
+    },
+    {
+      "date": "2026-02-06",
+      "amount": -2638,
+      "description": "PURCHASE AUTHORIZED ON 02/06 TRADER JOE'S #552"
+    },
+    {
+      "date": "2026-02-04",
+      "amount": 174270,
+      "description": "PURCHASE AUTHORIZED ON 02/04 ACME CORP PAYROLL"
+    },
+    {
+      "date": "2026-02-03",
+      "amount": -9456,
+      "description": "PURCHASE AUTHORIZED ON 02/03 AMAZON MKTPL*2K4"
+    },
+    {
+      "date": "2026-02-03",
+      "amount": -763,
+      "description": "PURCHASE AUTHORIZED ON 02/03 AMAZON MKTPL*2K4"
+    }
+  ],
+  "skipped": 0,
+  "detection": {
+    "delimiter": ",",
+    "dateFormat": "MDY",
+    "decimal": ".",
+    "headerRow": null,
+    "sign": "signed"
+  }
+}

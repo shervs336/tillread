@@ -1,0 +1,113 @@
+{
+  "name": "bofa-checking",
+  "bank": "Bank of America (checking)",
+  "region": "US",
+  "note": "Five summary lines before the header, then an opening-balance row with no amount.",
+  "truth": [
+    {
+      "date": "2026-01-04",
+      "amount": -4199,
+      "description": "NETFLIX.COM",
+      "balance": 245801
+    },
+    {
+      "date": "2026-01-06",
+      "amount": -10803,
+      "description": "WHOLE FOODS MKT #10",
+      "balance": 234998
+    },
+    {
+      "date": "2026-01-07",
+      "amount": 203586,
+      "description": "ACME CORP DES:PAYROLL",
+      "balance": 438584
+    },
+    {
+      "date": "2026-01-07",
+      "amount": -9730,
+      "description": "SHELL OIL 57444",
+      "balance": 428854
+    },
+    {
+      "date": "2026-01-08",
+      "amount": -10319,
+      "description": "CVS/PHARMACY #01234",
+      "balance": 418535
+    },
+    {
+      "date": "2026-01-08",
+      "amount": -8366,
+      "description": "UBER *TRIP",
+      "balance": 410169
+    },
+    {
+      "date": "2026-01-11",
+      "amount": -770,
+      "description": "TARGET 00012345",
+      "balance": 409399
+    },
+    {
+      "date": "2026-01-11",
+      "amount": -1836,
+      "description": "SHELL OIL 57444",
+      "balance": 407563
+    },
+    {
+      "date": "2026-01-11",
+      "amount": 291015,
+      "description": "ACME CORP DES:PAYROLL",
+      "balance": 698578
+    },
+    {
+      "date": "2026-01-13",
+      "amount": -12160,
+      "description": "SHELL OIL 57444",
+      "balance": 686418
+    },
+    {
+      "date": "2026-01-14",
+      "amount": -4478,
+      "description": "BLUE BOTTLE COFFEE",
+      "balance": 681940
+    },
+    {
+      "date": "2026-01-15",
+      "amount": -1444,
+      "description": "BLUE BOTTLE COFFEE",
+      "balance": 680496
+    },
+    {
+      "date": "2026-01-18",
+      "amount": -9960,
+      "description": "BLUE BOTTLE COFFEE",
+      "balance": 670536
+    },
+    {
+      "date": "2026-01-21",
+      "amount": -1170,
+      "description": "SPOTIFY USA",
+      "balance": 669366
+    },
+    {
+      "date": "2026-01-22",
+      "amount": 179213,
+      "description": "ACME CORP DES:PAYROLL",
+      "balance": 848579
+    },
+    {
+      "date": "2026-01-22",
+      "amount": -9635,
+      "description": "TARGET 00012345",
+      "balance": 838944
+    }
+  ],
+  "skipped": 1,
+  "detection": {
+    "delimiter": ",",
+    "dateFormat": "MDY",
+    "decimal": ".",
+    "headerRow": 5,
+    "sign": "signed",
+    "order": "ascending"
+  }
+}

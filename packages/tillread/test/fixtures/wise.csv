@@ -1,0 +1,15 @@
+TransferWise ID,Date,Amount,Currency,Description,Payment Reference,Running Balance,Exchange From,Exchange To,Exchange Rate,Payer Name,Payee Name,Payee Account Number,Merchant,Card Last Four Digits,Card Holder Full Name,Attachment,Note,Total fees
+CARD-4000000,25-02-2026,-23.50,EUR,"Card transaction of 23.50 EUR issued by Albert Heijn 1403 AMSTERDAM",,4653.28,,,,,,,Albert Heijn 1403,1234,Alex Doe,,,0.00
+CARD-4000001,22-02-2026,-32.44,EUR,"Card transaction of 32.44 EUR issued by Jumbo Utrecht AMSTERDAM",,4676.78,,,,,,,Jumbo Utrecht,1234,Alex Doe,,,0.00
+CARD-4000002,21-02-2026,-36.73,EUR,"Card transaction of 36.73 EUR issued by Bol.com AMSTERDAM",,4709.22,,,,,,,Bol.com,1234,Alex Doe,,,0.00
+CARD-4000003,19-02-2026,-23.40,EUR,"Card transaction of 23.40 EUR issued by Bol.com AMSTERDAM",,4745.95,,,,,,,Bol.com,1234,Alex Doe,,,0.00
+CARD-4000004,18-02-2026,-35.65,EUR,"Card transaction of 35.65 EUR issued by NS Groep IZ AMSTERDAM",,4769.35,,,,,,,NS Groep IZ,1234,Alex Doe,,,0.00
+CARD-4000005,18-02-2026,1697.89,EUR,"Received money from ACME BV",,4805.00,,,,ACME BV,,,,,Alex Doe,,,0.00
+CARD-4000006,18-02-2026,-49.52,EUR,"Card transaction of 49.52 EUR issued by Jumbo Utrecht AMSTERDAM",,3107.11,,,,,,,Jumbo Utrecht,1234,Alex Doe,,,0.00
+CARD-4000007,15-02-2026,-31.91,EUR,"Card transaction of 31.91 EUR issued by NS Groep IZ AMSTERDAM",,3156.63,,,,,,,NS Groep IZ,1234,Alex Doe,,,0.00
+CARD-4000008,12-02-2026,-66.76,EUR,"Card transaction of 66.76 EUR issued by Vattenfall AMSTERDAM",,3188.54,,,,,,,Vattenfall,1234,Alex Doe,,,0.00
+CARD-4000009,10-02-2026,-64.83,EUR,"Card transaction of 64.83 EUR issued by Vattenfall AMSTERDAM",,3255.30,,,,,,,Vattenfall,1234,Alex Doe,,,0.00
+CARD-4000010,09-02-2026,-6.65,EUR,"Card transaction of 6.65 EUR issued by HEMA Amsterdam AMSTERDAM",,3320.13,,,,,,,HEMA Amsterdam,1234,Alex Doe,,,0.00
+CARD-4000011,07-02-2026,2460.19,EUR,"Received money from ACME BV",,3326.78,,,,ACME BV,,,,,Alex Doe,,,0.00
+CARD-4000012,05-02-2026,-21.33,EUR,"Card transaction of 21.33 EUR issued by Albert Heijn 1403 AMSTERDAM",,866.59,,,,,,,Albert Heijn 1403,1234,Alex Doe,,,0.00
+CARD-4000013,02-02-2026,-12.08,EUR,"Card transaction of 12.08 EUR issued by Bol.com AMSTERDAM",,887.92,,,,,,,Bol.com,1234,Alex Doe,,,0.00

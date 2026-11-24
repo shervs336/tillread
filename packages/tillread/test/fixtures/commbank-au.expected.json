@@ -1,0 +1,113 @@
+{
+  "name": "commbank-au",
+  "bank": "Commonwealth Bank",
+  "region": "Australia",
+  "note": "No header and two signed number columns; the one that changes by the other each row is the balance.",
+  "truth": [
+    {
+      "date": "2026-01-03",
+      "amount": -6659,
+      "description": "BWS LIQUOR",
+      "balance": 233341
+    },
+    {
+      "date": "2026-01-05",
+      "amount": -10509,
+      "description": "OPAL TRAVEL",
+      "balance": 222832
+    },
+    {
+      "date": "2026-01-05",
+      "amount": 229575,
+      "description": "SALARY ACME PTY LTD",
+      "balance": 452407
+    },
+    {
+      "date": "2026-01-06",
+      "amount": -6060,
+      "description": "JB HI FI",
+      "balance": 446347
+    },
+    {
+      "date": "2026-01-07",
+      "amount": -8342,
+      "description": "BWS LIQUOR",
+      "balance": 438005
+    },
+    {
+      "date": "2026-01-07",
+      "amount": -2442,
+      "description": "COLES 0456 BONDI",
+      "balance": 435563
+    },
+    {
+      "date": "2026-01-08",
+      "amount": -4823,
+      "description": "OPAL TRAVEL",
+      "balance": 430740
+    },
+    {
+      "date": "2026-01-08",
+      "amount": -7464,
+      "description": "OPAL TRAVEL",
+      "balance": 423276
+    },
+    {
+      "date": "2026-01-09",
+      "amount": 276637,
+      "description": "SALARY ACME PTY LTD",
+      "balance": 699913
+    },
+    {
+      "date": "2026-01-11",
+      "amount": -4111,
+      "description": "BWS LIQUOR",
+      "balance": 695802
+    },
+    {
+      "date": "2026-01-11",
+      "amount": -974,
+      "description": "BWS LIQUOR",
+      "balance": 694828
+    },
+    {
+      "date": "2026-01-14",
+      "amount": -3862,
+      "description": "WOOLWORTHS 1234 SYDNEY",
+      "balance": 690966
+    },
+    {
+      "date": "2026-01-16",
+      "amount": -4466,
+      "description": "OPAL TRAVEL",
+      "balance": 686500
+    },
+    {
+      "date": "2026-01-18",
+      "amount": -10446,
+      "description": "WOOLWORTHS 1234 SYDNEY",
+      "balance": 676054
+    },
+    {
+      "date": "2026-01-21",
+      "amount": 273043,
+      "description": "SALARY ACME PTY LTD",
+      "balance": 949097
+    },
+    {
+      "date": "2026-01-21",
+      "amount": -1220,
+      "description": "JB HI FI",
+      "balance": 947877
+    }
+  ],
+  "skipped": 0,
+  "detection": {
+    "delimiter": ",",
+    "dateFormat": "DMY",
+    "decimal": ".",
+    "headerRow": null,
+    "sign": "signed",
+    "order": "ascending"
+  }
+}

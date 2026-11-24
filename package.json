@@ -1,0 +1,33 @@
+{
+  "name": "tillread-site",
+  "private": true,
+  "workspaces": ["packages/*"],
+  "scripts": {
+    "dev": "npm run build -w tillread && node scripts/copy-samples.mjs && next dev",
+    "build": "npm run build -w tillread && node scripts/copy-samples.mjs && next build",
+    "start": "next start",
+    "lint": "eslint",
+    "test": "npm test -w tillread",
+    "check": "npm run typecheck -w tillread && npm test -w tillread && npm run build -w tillread && npm run size -w tillread && npm run lint:pkg -w tillread",
+    "changeset": "changeset",
+    "version-packages": "changeset version",
+    "release": "npm run build -w tillread && changeset publish"
+  },
+  "dependencies": {
+    "next": "16.4.6",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "tillread": "*"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^3.0.3",
+    "@tailwindcss/turbopack": "4.3.3",
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.4.6",
+    "tailwindcss": "4.3.3",
+    "typescript": "^5"
+  }
+}

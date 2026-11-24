@@ -1,0 +1,15 @@
+dateOp;dateVal;label;category;categoryParent;supplierFound;amount;comment;accountNum;accountLabel;accountbalance
+2026-01-22;2026-01-22;"SNCF";"Transports";"Vie quotidienne";"sncf";-12,90;;00040123456;"Compte courant";5.631,48
+2026-01-20;2026-01-20;"CARREFOUR MARKET";"Alimentation";"Vie quotidienne";"carrefour market";-87,23;;00040123456;"Compte courant";5.631,48
+2026-01-19;2026-01-19;"MONOPRIX";"Alimentation";"Vie quotidienne";"monoprix";-29,45;;00040123456;"Compte courant";5.631,48
+2026-01-16;2026-01-16;"MONOPRIX";"Alimentation";"Vie quotidienne";"monoprix";-112,75;;00040123456;"Compte courant";5.631,48
+2026-01-15;2026-01-15;"CARREFOUR MARKET";"Alimentation";"Vie quotidienne";"carrefour market";-7,83;;00040123456;"Compte courant";5.631,48
+2026-01-14;2026-01-14;"VIR SALAIRE ACME SAS";"Salaires";"Vie quotidienne";"vir salaire acme sas";2.105,15;;00040123456;"Compte courant";5.631,48
+2026-01-11;2026-01-11;"CARREFOUR MARKET";"Alimentation";"Vie quotidienne";"carrefour market";-43,69;;00040123456;"Compte courant";5.631,48
+2026-01-09;2026-01-09;"MONOPRIX";"Alimentation";"Vie quotidienne";"monoprix";-80,57;;00040123456;"Compte courant";5.631,48
+2026-01-09;2026-01-09;"FNAC";"Loisirs";"Vie quotidienne";"fnac";-72,27;;00040123456;"Compte courant";5.631,48
+2026-01-08;2026-01-08;"FNAC";"Loisirs";"Vie quotidienne";"fnac";-22,96;;00040123456;"Compte courant";5.631,48
+2026-01-07;2026-01-07;"EDF";"Logement";"Vie quotidienne";"edf";-81,66;;00040123456;"Compte courant";5.631,48
+2026-01-04;2026-01-04;"VIR SALAIRE ACME SAS";"Salaires";"Vie quotidienne";"vir salaire acme sas";2.031,26;;00040123456;"Compte courant";5.631,48
+2026-01-04;2026-01-04;"CARREFOUR MARKET";"Alimentation";"Vie quotidienne";"carrefour market";-7,41;;00040123456;"Compte courant";5.631,48
+2026-01-04;2026-01-04;"CARREFOUR MARKET";"Alimentation";"Vie quotidienne";"carrefour market";-46,21;;00040123456;"Compte courant";5.631,48

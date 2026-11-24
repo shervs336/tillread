@@ -1,0 +1,114 @@
+[
+  {
+    "name": "chase-checking",
+    "bank": "Chase (checking)",
+    "region": "US",
+    "note": "Newest first, a trailing comma on every row, DEBIT/CREDIT in its own column.",
+    "rows": 18
+  },
+  {
+    "name": "bofa-checking",
+    "bank": "Bank of America (checking)",
+    "region": "US",
+    "note": "Five summary lines before the header, then an opening-balance row with no amount.",
+    "rows": 16
+  },
+  {
+    "name": "wells-fargo",
+    "bank": "Wells Fargo",
+    "region": "US",
+    "note": "No header row; every cell quoted. Columns are found from their contents.",
+    "rows": 14
+  },
+  {
+    "name": "capital-one-card",
+    "bank": "Capital One (credit card)",
+    "region": "US",
+    "note": "ISO dates, a posting date next to the transaction date, separate Debit and Credit columns.",
+    "rows": 15
+  },
+  {
+    "name": "amex",
+    "bank": "American Express",
+    "region": "US",
+    "note": "Charges are positive and payments negative, the opposite of a bank account.",
+    "rows": 15
+  },
+  {
+    "name": "monzo",
+    "bank": "Monzo",
+    "region": "UK",
+    "note": "Eighteen columns, including Local amount and Money Out / Money In next to Amount.",
+    "rows": 16
+  },
+  {
+    "name": "revolut",
+    "bank": "Revolut",
+    "region": "UK / EU",
+    "note": "Date-time stamps, a Fee column that isn't the amount, and a running balance that confirms the signs.",
+    "rows": 16
+  },
+  {
+    "name": "sparkasse",
+    "bank": "Sparkasse",
+    "region": "Germany",
+    "note": "Semicolons, 1.234,56 amounts, DD.MM.YY dates, every cell quoted, and Windows-1252 encoding (ä, ü).",
+    "rows": 15
+  },
+  {
+    "name": "ing-nl",
+    "bank": "ING",
+    "region": "Netherlands",
+    "note": "YYYYMMDD dates, unsigned amounts, and the direction in an Af/Bij (out/in) column.",
+    "rows": 15
+  },
+  {
+    "name": "barclays-uk",
+    "bank": "Barclays",
+    "region": "UK",
+    "note": "The merchant is in Memo with padded spaces, and the sort-code column (20-32-06) looks like a date.",
+    "rows": 15
+  },
+  {
+    "name": "commbank-au",
+    "bank": "Commonwealth Bank",
+    "region": "Australia",
+    "note": "No header and two signed number columns; the one that changes by the other each row is the balance.",
+    "rows": 16
+  },
+  {
+    "name": "wise",
+    "bank": "Wise",
+    "region": "International",
+    "note": "Nineteen columns, DD-MM-YYYY dates, and Merchant, Payee Name and Description all competing to be the description.",
+    "rows": 14
+  },
+  {
+    "name": "boursorama-fr",
+    "bank": "Boursorama",
+    "region": "France",
+    "note": "Semicolons, ISO dates and decimal commas; the balance column repeats today's balance, so it can't be used to check signs.",
+    "rows": 14
+  },
+  {
+    "name": "ambiguous-mdy",
+    "bank": "Ambiguous dates (month first)",
+    "region": "Edge case",
+    "note": "Every day is 12 or under, so 02/03 could be either; only the row order settles it.",
+    "rows": 14
+  },
+  {
+    "name": "ambiguous-dmy",
+    "bank": "Ambiguous dates (day first)",
+    "region": "Edge case",
+    "note": "The same puzzle the other way round: day-first dates that never go above 12.",
+    "rows": 14
+  },
+  {
+    "name": "messy-utf16",
+    "bank": "Messy spreadsheet export",
+    "region": "Edge case",
+    "note": "UTF-16 from Excel, tab-separated, quotes and line breaks inside cells, (12.50), 1,200.00-, a Unicode minus and a totals row.",
+    "rows": 6
+  }
+]

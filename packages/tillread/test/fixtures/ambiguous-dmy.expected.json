@@ -1,0 +1,82 @@
+{
+  "name": "ambiguous-dmy",
+  "bank": "Ambiguous dates (day first)",
+  "region": "Edge case",
+  "note": "The same puzzle the other way round: day-first dates that never go above 12.",
+  "truth": [
+    {
+      "date": "2026-03-03",
+      "amount": -5149,
+      "description": "SAINSBURYS S/MKT"
+    },
+    {
+      "date": "2026-03-08",
+      "amount": -2973,
+      "description": "BOOTS 1123"
+    },
+    {
+      "date": "2026-04-01",
+      "amount": 195829,
+      "description": "ACME LTD"
+    },
+    {
+      "date": "2026-04-05",
+      "amount": -4652,
+      "description": "TFL TRAVEL CH"
+    },
+    {
+      "date": "2026-04-05",
+      "amount": -8973,
+      "description": "TFL TRAVEL CH"
+    },
+    {
+      "date": "2026-04-08",
+      "amount": -1481,
+      "description": "THAMES WATER"
+    },
+    {
+      "date": "2026-05-01",
+      "amount": -10595,
+      "description": "SAINSBURYS S/MKT"
+    },
+    {
+      "date": "2026-05-01",
+      "amount": -6064,
+      "description": "TESCO STORES 2041"
+    },
+    {
+      "date": "2026-05-05",
+      "amount": 172968,
+      "description": "ACME LTD"
+    },
+    {
+      "date": "2026-05-06",
+      "amount": -7461,
+      "description": "SAINSBURYS S/MKT"
+    },
+    {
+      "date": "2026-06-01",
+      "amount": -7279,
+      "description": "TESCO STORES 2041"
+    },
+    {
+      "date": "2026-06-08",
+      "amount": -8322,
+      "description": "PRET A MANGER"
+    },
+    {
+      "date": "2026-06-09",
+      "amount": -1458,
+      "description": "THAMES WATER"
+    },
+    {
+      "date": "2026-07-01",
+      "amount": -7622,
+      "description": "BOOTS 1123"
+    }
+  ],
+  "skipped": 0,
+  "detection": {
+    "dateFormat": "DMY"
+  }
+}

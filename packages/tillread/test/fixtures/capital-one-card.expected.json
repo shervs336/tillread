@@ -1,0 +1,106 @@
+{
+  "name": "capital-one-card",
+  "bank": "Capital One (credit card)",
+  "region": "US",
+  "note": "ISO dates, a posting date next to the transaction date, separate Debit and Credit columns.",
+  "truth": [
+    {
+      "date": "2026-01-06",
+      "amount": -4296,
+      "description": "SHELL OIL 57444",
+      "category": "Gas"
+    },
+    {
+      "date": "2026-01-06",
+      "amount": -3107,
+      "description": "CVS/PHARMACY #01234",
+      "category": "Health"
+    },
+    {
+      "date": "2026-01-06",
+      "amount": 296079,
+      "description": "CAPITAL ONE MOBILE PYMT",
+      "category": "Payment/Credit"
+    },
+    {
+      "date": "2026-01-08",
+      "amount": -9517,
+      "description": "UBER *TRIP",
+      "category": "Travel"
+    },
+    {
+      "date": "2026-01-10",
+      "amount": -10810,
+      "description": "CVS/PHARMACY #01234",
+      "category": "Health"
+    },
+    {
+      "date": "2026-01-12",
+      "amount": -5360,
+      "description": "AMAZON MKTPL*2K4",
+      "category": "Shopping"
+    },
+    {
+      "date": "2026-01-14",
+      "amount": -11468,
+      "description": "SPOTIFY USA",
+      "category": "Entertainment"
+    },
+    {
+      "date": "2026-01-15",
+      "amount": -4475,
+      "description": "COMCAST XFINITY",
+      "category": "Bills"
+    },
+    {
+      "date": "2026-01-16",
+      "amount": 262831,
+      "description": "CAPITAL ONE MOBILE PYMT",
+      "category": "Payment/Credit"
+    },
+    {
+      "date": "2026-01-17",
+      "amount": -5770,
+      "description": "BLUE BOTTLE COFFEE",
+      "category": "Dining"
+    },
+    {
+      "date": "2026-01-18",
+      "amount": -6780,
+      "description": "COMCAST XFINITY",
+      "category": "Bills"
+    },
+    {
+      "date": "2026-01-18",
+      "amount": -9987,
+      "description": "UBER *TRIP",
+      "category": "Travel"
+    },
+    {
+      "date": "2026-01-19",
+      "amount": -6866,
+      "description": "BLUE BOTTLE COFFEE",
+      "category": "Dining"
+    },
+    {
+      "date": "2026-01-21",
+      "amount": -3639,
+      "description": "CVS/PHARMACY #01234",
+      "category": "Health"
+    },
+    {
+      "date": "2026-01-21",
+      "amount": 293039,
+      "description": "CAPITAL ONE MOBILE PYMT",
+      "category": "Payment/Credit"
+    }
+  ],
+  "skipped": 0,
+  "detection": {
+    "delimiter": ",",
+    "dateFormat": "YMD",
+    "decimal": ".",
+    "sign": "split",
+    "headerRow": 0
+  }
+}

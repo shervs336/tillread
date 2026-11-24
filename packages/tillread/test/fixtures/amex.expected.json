@@ -1,0 +1,90 @@
+{
+  "name": "amex",
+  "bank": "American Express",
+  "region": "US",
+  "note": "Charges are positive and payments negative, the opposite of a bank account.",
+  "truth": [
+    {
+      "date": "2026-03-03",
+      "amount": -9572,
+      "description": "SHELL OIL 57444"
+    },
+    {
+      "date": "2026-03-05",
+      "amount": -1321,
+      "description": "WHOLE FOODS MKT #10"
+    },
+    {
+      "date": "2026-03-07",
+      "amount": 218715,
+      "description": "AUTOPAY PAYMENT - THANK YOU"
+    },
+    {
+      "date": "2026-03-07",
+      "amount": -9658,
+      "description": "CHIPOTLE 2291"
+    },
+    {
+      "date": "2026-03-09",
+      "amount": -465,
+      "description": "AMAZON MKTPL*2K4"
+    },
+    {
+      "date": "2026-03-10",
+      "amount": -11058,
+      "description": "NETFLIX.COM"
+    },
+    {
+      "date": "2026-03-13",
+      "amount": -8981,
+      "description": "NETFLIX.COM"
+    },
+    {
+      "date": "2026-03-13",
+      "amount": -9822,
+      "description": "SHELL OIL 57444"
+    },
+    {
+      "date": "2026-03-14",
+      "amount": 168489,
+      "description": "AUTOPAY PAYMENT - THANK YOU"
+    },
+    {
+      "date": "2026-03-17",
+      "amount": -3245,
+      "description": "BLUE BOTTLE COFFEE"
+    },
+    {
+      "date": "2026-03-20",
+      "amount": -4104,
+      "description": "UBER *TRIP"
+    },
+    {
+      "date": "2026-03-23",
+      "amount": -3563,
+      "description": "UBER *TRIP"
+    },
+    {
+      "date": "2026-03-23",
+      "amount": -10730,
+      "description": "CHIPOTLE 2291"
+    },
+    {
+      "date": "2026-03-26",
+      "amount": -6438,
+      "description": "COMCAST XFINITY"
+    },
+    {
+      "date": "2026-03-28",
+      "amount": 170944,
+      "description": "AUTOPAY PAYMENT - THANK YOU"
+    }
+  ],
+  "skipped": 0,
+  "detection": {
+    "delimiter": ",",
+    "dateFormat": "MDY",
+    "decimal": ".",
+    "sign": "inverted"
+  }
+}

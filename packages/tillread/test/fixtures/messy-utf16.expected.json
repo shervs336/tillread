@@ -1,0 +1,45 @@
+{
+  "name": "messy-utf16",
+  "bank": "Messy spreadsheet export",
+  "region": "Edge case",
+  "note": "UTF-16 from Excel, tab-separated, quotes and line breaks inside cells, (12.50), 1,200.00-, a Unicode minus and a totals row.",
+  "truth": [
+    {
+      "date": "2026-04-01",
+      "amount": -1250,
+      "description": "Joe's \"Famous\" Pizza, Brooklyn"
+    },
+    {
+      "date": "2026-04-02",
+      "amount": -899,
+      "description": "Corner Shop Line one Line two"
+    },
+    {
+      "date": "2026-04-03",
+      "amount": 250000,
+      "description": "Payroll"
+    },
+    {
+      "date": "2026-04-04",
+      "amount": -4510,
+      "description": "Café Nero"
+    },
+    {
+      "date": "2026-04-05",
+      "amount": -120000,
+      "description": "Rent - April"
+    },
+    {
+      "date": "2026-04-06",
+      "amount": 1550,
+      "description": "Refund: Café Nero"
+    }
+  ],
+  "skipped": 1,
+  "detection": {
+    "delimiter": "\t",
+    "dateFormat": "MDY",
+    "decimal": ".",
+    "sign": "signed"
+  }
+}

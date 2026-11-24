@@ -1,0 +1,99 @@
+{
+  "name": "boursorama-fr",
+  "bank": "Boursorama",
+  "region": "France",
+  "note": "Semicolons, ISO dates and decimal commas; the balance column repeats today's balance, so it can't be used to check signs.",
+  "truth": [
+    {
+      "date": "2026-01-22",
+      "amount": -1290,
+      "description": "SNCF",
+      "category": "Transports"
+    },
+    {
+      "date": "2026-01-20",
+      "amount": -8723,
+      "description": "CARREFOUR MARKET",
+      "category": "Alimentation"
+    },
+    {
+      "date": "2026-01-19",
+      "amount": -2945,
+      "description": "MONOPRIX",
+      "category": "Alimentation"
+    },
+    {
+      "date": "2026-01-16",
+      "amount": -11275,
+      "description": "MONOPRIX",
+      "category": "Alimentation"
+    },
+    {
+      "date": "2026-01-15",
+      "amount": -783,
+      "description": "CARREFOUR MARKET",
+      "category": "Alimentation"
+    },
+    {
+      "date": "2026-01-14",
+      "amount": 210515,
+      "description": "VIR SALAIRE ACME SAS",
+      "category": "Salaires"
+    },
+    {
+      "date": "2026-01-11",
+      "amount": -4369,
+      "description": "CARREFOUR MARKET",
+      "category": "Alimentation"
+    },
+    {
+      "date": "2026-01-09",
+      "amount": -8057,
+      "description": "MONOPRIX",
+      "category": "Alimentation"
+    },
+    {
+      "date": "2026-01-09",
+      "amount": -7227,
+      "description": "FNAC",
+      "category": "Loisirs"
+    },
+    {
+      "date": "2026-01-08",
+      "amount": -2296,
+      "description": "FNAC",
+      "category": "Loisirs"
+    },
+    {
+      "date": "2026-01-07",
+      "amount": -8166,
+      "description": "EDF",
+      "category": "Logement"
+    },
+    {
+      "date": "2026-01-04",
+      "amount": 203126,
+      "description": "VIR SALAIRE ACME SAS",
+      "category": "Salaires"
+    },
+    {
+      "date": "2026-01-04",
+      "amount": -741,
+      "description": "CARREFOUR MARKET",
+      "category": "Alimentation"
+    },
+    {
+      "date": "2026-01-04",
+      "amount": -4621,
+      "description": "CARREFOUR MARKET",
+      "category": "Alimentation"
+    }
+  ],
+  "skipped": 0,
+  "detection": {
+    "delimiter": ";",
+    "dateFormat": "YMD",
+    "decimal": ",",
+    "sign": "signed"
+  }
+}

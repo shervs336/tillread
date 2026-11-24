@@ -1,0 +1,2 @@
+# Keep bank fixtures byte-for-byte (line endings and encodings are part of what is tested).
+packages/tillread/test/fixtures/*.csv -text

@@ -1,0 +1,91 @@
+{
+  "name": "ing-nl",
+  "bank": "ING",
+  "region": "Netherlands",
+  "note": "YYYYMMDD dates, unsigned amounts, and the direction in an Af/Bij (out/in) column.",
+  "truth": [
+    {
+      "date": "2026-01-26",
+      "amount": 174018,
+      "description": "ACME BV SALARIS"
+    },
+    {
+      "date": "2026-01-24",
+      "amount": -6940,
+      "description": "HEMA Amsterdam"
+    },
+    {
+      "date": "2026-01-23",
+      "amount": -4016,
+      "description": "Bol.com"
+    },
+    {
+      "date": "2026-01-22",
+      "amount": -2661,
+      "description": "Albert Heijn 1403"
+    },
+    {
+      "date": "2026-01-20",
+      "amount": -1196,
+      "description": "HEMA Amsterdam"
+    },
+    {
+      "date": "2026-01-19",
+      "amount": -2754,
+      "description": "Bol.com"
+    },
+    {
+      "date": "2026-01-16",
+      "amount": 200034,
+      "description": "ACME BV SALARIS"
+    },
+    {
+      "date": "2026-01-14",
+      "amount": -10784,
+      "description": "NS Groep IZ"
+    },
+    {
+      "date": "2026-01-13",
+      "amount": -11069,
+      "description": "HEMA Amsterdam"
+    },
+    {
+      "date": "2026-01-11",
+      "amount": -8003,
+      "description": "Jumbo Utrecht"
+    },
+    {
+      "date": "2026-01-09",
+      "amount": -11553,
+      "description": "NS Groep IZ"
+    },
+    {
+      "date": "2026-01-08",
+      "amount": -8676,
+      "description": "Bol.com"
+    },
+    {
+      "date": "2026-01-06",
+      "amount": 287918,
+      "description": "ACME BV SALARIS"
+    },
+    {
+      "date": "2026-01-05",
+      "amount": -8985,
+      "description": "Vattenfall"
+    },
+    {
+      "date": "2026-01-02",
+      "amount": -10514,
+      "description": "Albert Heijn 1403"
+    }
+  ],
+  "skipped": 0,
+  "detection": {
+    "delimiter": ";",
+    "dateFormat": "YMD",
+    "decimal": ",",
+    "sign": "direction",
+    "order": "descending"
+  }
+}
